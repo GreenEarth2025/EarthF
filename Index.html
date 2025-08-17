@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Prakash's GitHub Journey</title>
+<style>
+  body {
+    font-family: system-ui, sans-serif;
+    background: #0b1220;
+    color: #e8eefc;
+    padding: 20px;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .timeline {
+    position: relative;
+    max-width: 900px;
+    margin: auto;
+  }
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color: #4da3ff;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -2px;
+  }
+  .container {
+    padding: 20px 30px;
+    position: relative;
+    width: 50%;
+  }
+  .container.left { left: 0; }
+  .container.right { left: 50%; }
+  .container::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: -10px;
+    background-color: #0b1220;
+    border: 4px solid #4da3ff;
+    top: 20px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  .right::after { left: -10px; }
+  .content {
+    padding: 20px;
+    background: #101a33;
+    border-radius: 6px;
+    border: 1px solid #1e2a47;
+    box-shadow: 0 4px 10px rgba(0,0,0,.3);
+  }
+  .content h2 {
+    margin-top: 0;
+    color: #4da3ff;
+  }
+  @media screen and (max-width: 768px) {
+    .timeline::after { left: 31px; }
+    .container { width: 100%; padding-left: 70px; padding-right: 25px; }
+    .container.right { left: 0; }
+    .container::after { left: 15px; }
+  }
+</style>
+</head>
+<body>
+
+<h1>🚀 Prakash's GitHub Journey</h1>
+
+<div class="timeline">
+
+  <div class="container left">
+    <div class="content">
+      <h2>1️⃣ The Blank Page</h2>
+      <p>First GitHub login. Learned what repositories are and how to navigate.</p>
+    </div>
+  </div>
+
+  <div class="container right">
+    <div class="content">
+      <h2>2️⃣ First Launch</h2>
+      <p>Built and committed your very first web game with working HTML, CSS, and JavaScript.</p>
+    </div>
+  </div>
+
+  <div class="container left">
+    <div class="content">
+      <h2>3️⃣ Building Momentum</h2>
+      <p>Added more games to your arcade, improving file structure and fixing commit errors.</p>
+    </div>
+  </div>
+
+  <div class="container right">
+    <div class="content">
+      <h2>4️⃣ Pivot to Applications</h2>
+      <p>Shifted focus to offline‑ready, real‑world tools like the Country Insights app.</p>
+    </div>
+  </div>
+
+  <div class="container left">
+    <div class="content">
+      <h2>5️⃣ Advanced Problem‑Solving</h2>
+      <p>Created multiple versions of apps: offline, online API, and hybrid fallbacks.</p>
+    </div>
+  </div>
+
+  <div class="container right">
+    <div class="content">
+      <h2>6️⃣ Rapid Adaptation</h2>
+      <p>Replaced unreliable APIs with embedded data, keeping apps functional anytime.</p>
+    </div>
+  </div>
+
+  <div class="container left">
+    <div class="content">
+      <h2>7️⃣ Confident Publisher</h2>
+      <p>Publishing fully‑functional, ready‑to‑commit HTML apps without hesitation.</p>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
